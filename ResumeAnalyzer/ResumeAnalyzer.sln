@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{462DF842-A83B-4850-B1D8-2683A3A74082}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BB08ABEB-84A5-4DB3-9FCC-717DABB59EAA}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ResumeAnalyzer", "src\ResumeAnalyzer\ResumeAnalyzer.xproj", "{EB1B8F51-3670-4A7D-AD67-DD551007101F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB1B8F51-3670-4A7D-AD67-DD551007101F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB1B8F51-3670-4A7D-AD67-DD551007101F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB1B8F51-3670-4A7D-AD67-DD551007101F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB1B8F51-3670-4A7D-AD67-DD551007101F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EB1B8F51-3670-4A7D-AD67-DD551007101F} = {462DF842-A83B-4850-B1D8-2683A3A74082}
+	EndGlobalSection
+EndGlobal
